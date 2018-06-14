@@ -69,6 +69,9 @@
                                          [:jolokia-config]
                                          assoc-if-contains
                                          "keystorePassword"
+                                         "REDACTED")
+                       result (assoc-in  result
+                                         [:giphy :api-key]
                                          "REDACTED")]
                    result))
 
