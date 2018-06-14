@@ -67,7 +67,7 @@ The configuration file is structured as follows:
   }
   :giphy {
     :api-key    "<Giphy API key>"       ; See https://developers.giphy.com/
-    :rating     "<Giphy image rating>"  ; See https://developers.giphy.com/docs/
+    :rating     "<Giphy image rating>"  ; Any one of: Y, G, PG, PG-13, R
     :timeout-ms <timeout (in ms) for Giphy API calls>
     :proxy-host "<optional, HTTP proxy hostname>"
     :proxy-port <optional, HTTP proxy port>
