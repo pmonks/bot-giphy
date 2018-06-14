@@ -66,14 +66,14 @@ The configuration file is structured as follows:
     "port" "<jolokia-server-port-as-a-string>"
   }
   :giphy {
-    :api-key    "<Giphy API key>"       ; See https://developers.giphy.com/
-    :rating     "<Giphy image rating>"  ; Any one of: Y, G, PG, PG-13, R
-    :timeout-ms <timeout (in ms) for Giphy API calls>
-    :proxy-host "<optional, HTTP proxy hostname>"
-    :proxy-port <optional, HTTP proxy port>
+    :api-key    "<Giphy API key>"        ; Required - see https://developers.giphy.com/
+    :rating     "<Giphy image rating>"   ; Any one of: Y, G, PG, PG-13, R  Optional - defaults to G
+    :timeout-ms <timeout (in ms) for Giphy API calls>  ; Optional - defaults to 1000 (1 second)
+    :proxy-host "<HTTP proxy hostname>"  ; Optional - defaults to none
+    :proxy-port <HTTP proxy port>        ; Optional - defaults to none
   }
   :accept-connections-interval <minutes>    ; Optional - defaults to 30 minutes
-  :admin-emails ["user1@domain.tld" "user2@domain.tld"]    ; Optional
+  :admin-emails ["user1@domain.tld" "user2@domain.tld"]    ; Optional - defaults to none
 }
 ```
 
@@ -94,7 +94,7 @@ keys and values in this map MUST be strings (this is a Jolokia requirement).
 
 #### :giphy
 
-Configuration that controls how the bot calls the Giphy APIs.
+Configuration that controls how the bot calls the Giphy APIs.  The most import
 
 #### :accept-connections-interval
 
