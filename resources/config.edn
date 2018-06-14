@@ -14,7 +14,7 @@
 
   :giphy {
     :api-key    #env GIPHY_API_KEY
-    :rating     #or [#env GIPHY_RATING "G"]
+    :rating     #or [#env GIPHY_RATING "G"]    ; Any one of: Y, G, PG, PG-13, R
     :timeout-ms #long #or [#env GIPHY_TIMEOUT 1000]
     :proxy-host #env HTTP_PROXY_HOST
     :proxy-port #env HTTP_PROXY_PORT
