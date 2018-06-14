@@ -46,7 +46,7 @@
                       [clj-time                         "0.14.4"]
                       [clj-http                         "3.9.0" :exclusions [org.clojure/clojure]]
                       [cheshire                         "5.8.0"]
-                      [org.symphonyoss/clj-symphony     "0.8.0-SNAPSHOT" :exclusions [org.clojure/clojure
+                      [org.symphonyoss/clj-symphony     "0.8.0" :exclusions [org.clojure/clojure
                                                                              org.slf4j/slf4j-log4j12]]
 
                       ; The following dependencies are inherited but have conflicting versions, so we "pin" the versions here
