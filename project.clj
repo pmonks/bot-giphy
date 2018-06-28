@@ -41,13 +41,14 @@
                       [org.slf4j/jcl-over-slf4j         "1.7.25"]
                       [org.slf4j/log4j-over-slf4j       "1.7.25"]
                       [org.slf4j/jul-to-slf4j           "1.7.25"]
-                      [org.jolokia/jolokia-jvm          "1.5.0"]
-                      [org.jolokia/jolokia-jvm          "1.5.0" :classifier "agent"]
+                      [org.jolokia/jolokia-jvm          "1.6.0"]
+                      [org.jolokia/jolokia-jvm          "1.6.0" :classifier "agent"]
                       [clj-time                         "0.14.4"]
                       [clj-http                         "3.9.0" :exclusions [org.clojure/clojure]]
                       [cheshire                         "5.8.0"]
-                      [org.symphonyoss/clj-symphony     "0.8.0" :exclusions [org.clojure/clojure
-                                                                             org.slf4j/slf4j-log4j12]]
+                      [org.clojars.pmonks/clj-2253      "0.1.0-SNAPSHOT" :exclusions [org.clojure/clojure]]
+                      [org.symphonyoss/clj-symphony     "0.8.0"          :exclusions [org.clojure/clojure
+                                                                                      org.slf4j/slf4j-log4j12]]
 
                       ; The following dependencies are inherited but have conflicting versions, so we "pin" the versions here
                       [com.fasterxml.jackson.core/jackson-core                      ~jackson-version]
