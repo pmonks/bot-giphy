@@ -32,9 +32,9 @@
                     ]
   :dependencies     [
                       [org.clojure/clojure              "1.9.0"]
-                      [org.apache.commons/commons-lang3 "3.7"]
+                      [org.apache.commons/commons-lang3 "3.8"]
                       [aero                             "1.1.3"]
-                      [mount                            "0.1.12"]
+                      [mount                            "0.1.13"]
                       [org.clojure/tools.cli            "0.3.7"]
                       [org.clojure/tools.logging        "0.4.1"]
                       [ch.qos.logback/logback-classic   "1.2.3"]
@@ -44,7 +44,7 @@
                       [org.jolokia/jolokia-jvm          "1.6.0"]
                       [org.jolokia/jolokia-jvm          "1.6.0" :classifier "agent"]
                       [clj-time                         "0.14.4"]
-                      [clj-http                         "3.9.0" :exclusions [org.clojure/clojure]]
+                      [clj-http                         "3.9.1" :exclusions [org.clojure/clojure]]
                       [cheshire                         "5.8.0"]
                       [org.clojars.pmonks/clj-2253      "0.1.0" :exclusions [org.clojure/clojure]]
                       [org.symphonyoss/clj-symphony     "0.8.0" :exclusions [org.clojure/clojure
@@ -67,7 +67,7 @@
                       [joda-time/joda-time                                          "2.10"]
                       [org.hamcrest/hamcrest-core                                   "1.3"]
                     ]
-  :profiles         {:dev {:dependencies [[midje         "1.9.1"]]
+  :profiles         {:dev {:dependencies [[midje         "1.9.2"]]
                            :plugins      [[lein-midje    "3.2.1"]
                                           [lein-licenses "0.2.2"]]}
                      :uberjar {:aot          :all
