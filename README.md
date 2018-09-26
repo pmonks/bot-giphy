@@ -94,7 +94,8 @@ keys and values in this map MUST be strings (this is a Jolokia requirement).
 
 #### :giphy
 
-Configuration that controls how the bot calls the Giphy APIs.  The most import
+Configuration that controls how the bot calls the Giphy APIs.  The most important (and only mandatory) setting being a
+Giphy API Key, which can be obtained [here](https://developers.giphy.com/).
 
 #### :accept-connections-interval
 
