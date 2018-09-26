@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/pmonks/bot-giphy.svg?branch=master)](https://travis-ci.org/pmonks/bot-giphy)
+[![Build Status](https://travis-ci.com/pmonks/bot-giphy.svg?branch=master)](https://travis-ci.com/pmonks/bot-giphy)
 [![BCH compliance](https://bettercodehub.com/edge/badge/pmonks/bot-giphy?branch=master)](https://bettercodehub.com/)
 [![Open Issues](https://img.shields.io/github/issues/pmonks/bot-giphy.svg)](https://github.com/pmonks/bot-giphy/issues)
 [![Dependencies Status](https://versions.deps.co/pmonks/bot-giphy/status.svg)](https://versions.deps.co/pmonks/bot-giphy)
