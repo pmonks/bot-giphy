@@ -45,10 +45,10 @@
                       [org.jolokia/jolokia-jvm          "1.6.0" :classifier "agent"]
                       [clj-time                         "0.14.4"]
                       [clj-http                         "3.9.1" :exclusions [org.clojure/clojure]]
-                      [cheshire                         "5.8.0"]
-                      [org.clojars.pmonks/clj-2253      "0.1.0" :exclusions [org.clojure/clojure]]
-                      [org.symphonyoss/clj-symphony     "0.9.0" :exclusions [org.clojure/clojure
-                                                                             org.slf4j/slf4j-log4j12]]
+                      [cheshire                         "5.8.1"]
+                      [org.clojars.pmonks/clj-2253      "0.1.0"  :exclusions [org.clojure/clojure]]
+                      [org.symphonyoss/clj-symphony     "0.10.0" :exclusions [org.clojure/clojure
+                                                                              org.slf4j/slf4j-log4j12]]
 
                       ; The following dependencies are inherited but have conflicting versions, so we "pin" the versions here
                       [com.fasterxml.jackson.core/jackson-core                      ~jackson-version]
