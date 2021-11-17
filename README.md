@@ -5,6 +5,8 @@
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/pmonks/bot-giphy.svg)](http://isitmaintained.com/project/pmonks/bot-giphy "Average time to resolve an issue")
 [![License](https://img.shields.io/github/license/pmonks/bot-giphy.svg)](https://github.com/pmonks/bot-giphy/blob/master/LICENSE)
 
+**2021-11-17: With the archiving of the [`clj-symphony`](https://github.com/symphonyoss/clj-symphony) and [`symphony-java-client`](https://github.com/symphonyoss/symphony-java-client) libraries that this bot depends upon, this project is now also archived.  Clojure developers who wish to develop Symphony bots are encouraged to evaluate [`symphony-java-toolkit`](https://github.com/finos/symphony-java-toolkit), a high quality open source successor to the `symphony-java-client`.**
+
 # Giphy bot
 
 A small [Symphony](http://www.symphony.com/) bot that responds to `/giphy` commands in messages to return a random Giphy
